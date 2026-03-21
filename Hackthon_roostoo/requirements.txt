@@ -1,0 +1,5 @@
+cat > requirements.txt << EOF
+numpy
+scikit-learn
+requests
+EOF
