@@ -1,8 +1,8 @@
 import os
 
 # Roostoo credentials (Hardcoded for this demo; use env vars in production)
-ROOSTOO_API_KEY = os.getenv('ROOSTOO_API_KEY', '1HwaDgGgcrBS5mo4NcNDMGMTHogZtMXkDXNM4G3FVGdqpr5l9DotuaAdD62hwAe8')
-ROOSTOO_SECRET = os.getenv('ROOSTOO_SECRET', '5FUMFRTnwuCFShUwoq06RxECLpVJujmTI6hn04SU6BYwLZD6dBXg4HFF8yIV7lo3')
+ROOSTOO_API_KEY = os.getenv('ROOSTOO_API_KEY', 'UtVJC6TZId4MTPuaVoXLM2RqpNPhcxTGrYqoNbpYNp2AslIpsPmYnh1HyQ2rgUna')
+ROOSTOO_SECRET = os.getenv('ROOSTOO_SECRET', 'Rtb0bcdgRWBfxzew9apfs1XpiWLJZMXK3gIUAtrCwJSLrDvrxQVM8O8LBVX4wH04')
 BASE_URL = os.getenv('ROOSTOO_BASE_URL', 'https://mock-api.roostoo.com')
 PAIR = os.getenv('PAIR', 'BTC/USD')
 SYMBOL = os.getenv('SYMBOL', 'BTCUSDT')
